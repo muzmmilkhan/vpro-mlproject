@@ -7,7 +7,11 @@ authors = [
     { name = "Muzmmil Pathan", email = "muzmmil.dba@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.0",
+    "pandas>=3.0.4",
+    "seaborn>=0.13.2",
+]
 
 [project.scripts]
 vpro-mlproject = "vpro_mlproject:main"
@@ -15,3 +19,6 @@ vpro-mlproject = "vpro_mlproject:main"
 [build-system]
 requires = ["uv_build>=0.11.25,<0.12.0"]
 build-backend = "uv_build"
+
+[tool.uv]
+index-url = "https://pypi.apple.com/simple"
