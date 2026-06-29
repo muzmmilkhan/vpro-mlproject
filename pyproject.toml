@@ -1,10 +1,10 @@
 [project]
 name = "vpro-mlproject"
 version = "0.1.0"
-description = "Add your description here"
+description = "END TO END MACHINE LEARNING PROJECT"
 readme = "README.md"
 authors = [
-    { name = "Muzmmil Pathan", email = "muzmmil_pathan@apple.com" }
+    { name = "Muzmmil Pathan", email = "muzmmil.dba@gmail.com" }
 ]
 requires-python = ">=3.13"
 dependencies = []
